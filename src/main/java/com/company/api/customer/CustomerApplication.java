@@ -37,6 +37,7 @@ public class CustomerApplication {
 		return new ApiInfoBuilder()
 				.title("Customer API")
 				.description("API to create, update and delete customer profile")
+				.version("1.0")
 				.build();
 	}
 }
