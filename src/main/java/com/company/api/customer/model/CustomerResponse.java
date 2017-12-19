@@ -1,5 +1,10 @@
 package com.company.api.customer.model;
 
+/**
+ * 
+ * @author Bhavin Mehta
+ *
+ */
 public class CustomerResponse {
 
 	private String customerId;

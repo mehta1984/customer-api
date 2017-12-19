@@ -2,6 +2,11 @@ package com.company.api.customer.service;
 
 import com.company.api.customer.model.Customer;
 
+/**
+ * 
+ * @author Bhavin Mehta
+ *
+ */
 public interface CustomerService {
 
 	public Customer findByCustomerId(String customerId);

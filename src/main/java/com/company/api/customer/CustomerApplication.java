@@ -21,13 +21,6 @@ public class CustomerApplication {
 		SpringApplication.run(CustomerApplication.class, args);
 	}
 	
-	/*@Bean
-    public Docket productApi() {
-        return new Docket(DocumentationType.SWAGGER_2)
-                .select().apis(RequestHandlerSelectors.basePackage("com.company.api.customer.web"))
-                .paths(regex("/customer.*"))
-                .build();
-    }*/
 	
 	@Bean
 	public Docket api() {
@@ -39,10 +32,6 @@ public class CustomerApplication {
 				.build();
 	}
 
-	/*@Bean
-	UiConfiguration uiConfig() {
-		return new UiConfiguration("validatorUrl");
-	}*/
 
 	private ApiInfo apiInfo() {
 		return new ApiInfoBuilder()

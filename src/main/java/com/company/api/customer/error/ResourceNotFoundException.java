@@ -1,5 +1,10 @@
 package com.company.api.customer.error;
 
+/**
+ * 
+ * @author Bhavin Mehta
+ *
+ */
 public class ResourceNotFoundException extends RuntimeException {
 
     /**

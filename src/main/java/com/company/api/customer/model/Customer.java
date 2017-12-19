@@ -9,6 +9,11 @@ import com.fasterxml.jackson.annotation.JsonFormat;
 
 import io.swagger.annotations.ApiModelProperty;
 
+/**
+ * 
+ * @author Bhavin Mehta
+ *
+ */
 public class Customer {
 
 	private String customerId;

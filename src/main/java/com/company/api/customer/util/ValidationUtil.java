@@ -6,6 +6,11 @@ import java.util.List;
 import org.springframework.validation.Errors;
 import org.springframework.validation.ObjectError;
 
+/**
+ * 
+ * @author Bhavin Mehta
+ *
+ */
 public class ValidationUtil {
 	
 	public static List<String> fromBindingErrors(Errors errors) {
